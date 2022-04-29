@@ -42,23 +42,29 @@ header .row {
   transition: transform 1s;
   transition: transform 1s, -webkit-transform 1s;
   margin: 40px 0;
-  min-height: 150px;
 }
 
 #asideText {
   display: block;
-  position: absolute;
-  bottom: 12vh;
+  position: relative;
+  bottom: 0;
   margin: 0 auto;
+  margin-bottom: 10vh;
   width: 100vw;
 }
 
 footer {
   background: #397074;
-  position: fixed;
-  bottom: 0;
   padding: 15px;
   height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 90vh;
 }
 
 footer p {
@@ -66,6 +72,7 @@ footer p {
   line-height: 25px;
   font-size: 25px;
   margin-bottom: 0;
+  width: 100vw;
 }
 
 footer a {

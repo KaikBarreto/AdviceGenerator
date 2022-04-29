@@ -42,7 +42,7 @@ header {
     display: none;
     transition: transform 1s;
     margin: 40px 0;
-    max-height: 200px;
+    min-height: 150px;
 }
 
 #asideText {

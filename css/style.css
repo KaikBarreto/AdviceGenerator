@@ -42,7 +42,7 @@ header .row {
   transition: transform 1s;
   transition: transform 1s, -webkit-transform 1s;
   margin: 40px 0;
-  max-height: 200px;
+  min-height: 150px;
 }
 
 #asideText {

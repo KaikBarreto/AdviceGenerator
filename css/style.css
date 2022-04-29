@@ -1,0 +1,86 @@
+header {
+  background: #397074;
+  color: #ddd;
+}
+
+header .row {
+  text-align: center;
+}
+
+#title {
+  font-size: 44px;
+  background-image: url("../bg.jpg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#welcome-area {
+  padding-top: 40px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #333;
+}
+
+#welcome-area h1 {
+  font-size: 40px;
+}
+
+#welcome-area p {
+  font-size: 22px;
+}
+
+#welcome-area button {
+  font-size: 30px;
+  min-width: 30%;
+  min-height: 50px;
+}
+
+#advice-area {
+  display: none;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  margin: 40px 0;
+  max-height: 200px;
+}
+
+#asideText {
+  display: block;
+  position: absolute;
+  bottom: 12vh;
+  margin: 0 auto;
+  width: 100vw;
+}
+
+footer {
+  background: #397074;
+  position: fixed;
+  bottom: 0;
+  padding: 15px;
+  height: 10vh;
+}
+
+footer p {
+  color: #ddd;
+  line-height: 25px;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #397074;
+  background-color: #ddd;
+  padding: 0 15px;
+  height: 10vh;
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-radius: 25px;
+}
+
+footer a:hover {
+  color: #ddd;
+  background: #397074;
+}
+/*# sourceMappingURL=style.css.map */
